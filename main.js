@@ -29,7 +29,7 @@ btn.addEventListener('click', () => {
 	let langFrom = country.value
 	let langTo = country_2.value
 	let text = inputValue.value
-	console.log(typeof langFrom, langTo)
+
 	if (!text) {
 		return (outputValue.textContent = `please Enter the sentences only to translate `)
 	} else if (langFrom == langTo) {

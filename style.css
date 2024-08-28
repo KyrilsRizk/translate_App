@@ -1,0 +1,72 @@
+body {
+	background-color: #666b73;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.translator-container {
+	background-color: #1a1a1a;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	height: 700px;
+	width: 900px;
+}
+
+.translator-container h1 {
+	margin-bottom: 30px;
+	font-size: 4rem;
+}
+
+.translator-box {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.text-input,
+.text-output {
+	width: 45%;
+	height: 300px;
+	background-color: #333;
+	color: white;
+	font-size: 2rem;
+	border: 1px solid #555;
+	border-radius: 10px;
+	padding: 15px;
+	resize: none;
+	resize: none;
+}
+.text-output {
+	user-select: none;
+}
+
+.language-select-1,
+.language-select-2 {
+	margin: 30px;
+	padding: 15px;
+	background-color: #333;
+	color: white;
+	border: 1px solid #555;
+	border-radius: 5px;
+	font-size: 2rem;
+}
+
+.translate-button {
+	background-color: #333;
+	color: white;
+	border: 1px solid #555;
+	padding: 10px 30px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.8rem;
+}
+
+.translate-button:hover {
+	background-color: #555;
+}

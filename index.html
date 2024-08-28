@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+		<title>Translator App</title>
+	</head>
+	<body>
+		<div class="translator-container">
+			<h1>Translator App</h1>
+			<div class="translator-box">
+				<textarea
+					class="text-input"
+					placeholder="Enter text here..."
+				></textarea>
+				<textarea
+					readonly
+					class="text-output"
+					placeholder="Translation appears here..."
+				></textarea>
+			</div>
+			<div class="translator-controls">
+				<select class="language-select-1">
+					<option>English</option>
+				</select>
+				<select class="language-select-2">
+					<option>Arabic</option>
+				</select>
+			</div>
+			<button class="translate-button">Translate</button>
+		</div>
+		<script src="data.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

@@ -31,9 +31,11 @@ btn.addEventListener('click', () => {
 	let text = inputValue.value
 
 	if (!text) {
-		return (outputValue.textContent = `please Enter the sentences only to translate `)
-	} else if (langFrom == langTo) {
-		return (outputValue.textContent = `please select other language can't  yrsndlste the same language `)
+		outputValue.textContent = `please Enter the sentences only to translate `
+	} else if (langFrom === langTo) {
+		outputValue.textContent = `please select other language can't  be the same language `
+		console.log('an error same language')
+		return
 	} else {
 		const theURL = `https://api.mymemory.translated.net/get?q=${text}&langpair=${langFrom}|${langTo}`
 		fetch(theURL)
